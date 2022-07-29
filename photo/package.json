@@ -1,8 +1,10 @@
 {
+  "homepage": "https://M07mmed.github.io/photo-app",
   "name": "photo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +21,7 @@
     "autoprefixer": "^10.4.7",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
   }

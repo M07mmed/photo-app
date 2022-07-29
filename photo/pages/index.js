@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/Hero';
+import Instagram from '../components/Instagram';
+import Slider from '../components/Slider';
+import { SliderData } from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -11,6 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Captur Photography' message='I captur moment in nature and keep then alive.' />
+      <Slider slides={SliderData} />
+      <Instagram />
     </div>
   );
 }
